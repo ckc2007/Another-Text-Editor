@@ -13,7 +13,7 @@ window.addEventListener("beforeinstallprompt", (event) => {
 // handles PWA installation when button is clicked
 butInstall.addEventListener("click", async () => {
   // assigns the event containing the PWA installation prompt)to the variable promptEvent
-  const promptEvent = window.defferedPrompt;
+  const promptEvent = window.deferredPrompt;
   //  checks if promptEvent is null or undefined. If it is, the function returns early, meaning there is no PWA installation prompt to trigger.
   if (!promptEvent) {
     return;
