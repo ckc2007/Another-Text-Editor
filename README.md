@@ -46,7 +46,8 @@ Service Workers
 IndexedDB
 ![screenshot](./assets/images/Screen%20Shot%202023-07-17%20at%204.21.18%20PM.png)
 
-![an app for saving code snippets and notes](https://another-text-editor-ckc2007-d86b7e50a2f1.herokuapp.com/ "an app for saving code snippets and notes")
+Click to see deployed application
+[here](https://another-text-editor-ckc2007-d86b7e50a2f1.herokuapp.com/).
 
 ## Contributing
 
