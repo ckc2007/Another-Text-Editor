@@ -10,7 +10,25 @@ window.addEventListener("beforeinstallprompt", (event) => {
 });
 
 // TODO: Implement a click event handler on the `butInstall` element
-butInstall.addEventListener("click", async () => {});
+// handles PWA installation when button is clicked
+butInstall.addEventListener("click", async () => {
+  // assigns the event containing the PWA installation prompt)to the variable promptEvent
+  const promptEvent = window.defferedPrompt;
+  //  checks if promptEvent is null or undefined. If it is, the function returns early, meaning there is no PWA installation prompt to trigger.
+  if (!promptEvent) {
+    return;
+  }
+  // triggers the PWA installation prompt, showing the user the option to install the application on their device.
+  promptEvent.prompt();
+  // After triggering the prompt, window.deferredPrompt is set to null to clean up the reference
+  window.deferredPrompt = null;
+  // adds the "hidden" class back to the butInstall element, hiding it again after the user clicks the install button.
+  butInstall.classList.toggle("hidden", true);
+});
 
 // TODO: Add an handler for the `appinstalled` event
-window.addEventListener("appinstalled", (event) => {});
+//  triggered when the PWA is successfully installed on the user's device
+window.addEventListener("appinstalled", (event) => {
+  // sets window.deferredPrompt to null, ensuring that there are no references to the installation prompt after the PWA is installed.
+  window.deferredPrompt = null;
+});
