@@ -25,7 +25,7 @@ warmStrategyCache({
 });
 
 // Register a route for page caching. It serves pages from the cache (stale) while revalidating in the background.
-registerRoute(({ request }) => request.mode === "navigate", pageCache);
+// registerRoute(({ request }) => request.mode === "navigate", pageCache);
 
 // TODO: Implement asset caching
 registerRoute(
