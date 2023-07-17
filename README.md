@@ -14,8 +14,11 @@ This application saves notes or code snippets online or as an offline app.
 ## Table Of Contents
 
 [Installation](#installation)
+
 [Usage](#usage)
+
 [Credits](#credits)
+
 [License](#license)
 
 ## Installation
