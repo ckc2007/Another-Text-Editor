@@ -49,6 +49,8 @@ IndexedDB
 Click to see deployed application
 [here](https://another-text-editor-ckc2007-d86b7e50a2f1.herokuapp.com/).
 
+Deployed URL: https://another-text-editor-ckc2007-d86b7e50a2f1.herokuapp.com/
+
 ## Contributing
 
 Third party assets used in this project include:
