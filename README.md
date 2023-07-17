@@ -31,7 +31,21 @@ When the app is first opened, the user will be able to type in notes in the comm
 
 ## Screenshot / Video
 
-![screenshot](./assets/images/screenshot.png)
+Offline version
+![screenshot](./assets/images/Screen%20Shot%202023-07-17%20at%204.22.11%20PM.png)
+
+Online version
+![screenshot](./assets/images/Screen%20Shot%202023-07-17%20at%204.20.35%20PM.png)
+
+Manifest
+![screenshot](./assets/images/Screen%20Shot%202023-07-17%20at%204.20.51%20PM.png)
+
+Service Workers
+![screenshot](./assets/images/Screen%20Shot%202023-07-17%20at%204.21.00%20PM.png)
+
+IndexedDB
+![screenshot](./assets/images/Screen%20Shot%202023-07-17%20at%204.21.18%20PM.png)
+
 ![an app for saving code snippets and notes](https://another-text-editor-ckc2007-d86b7e50a2f1.herokuapp.com/ "an app for saving code snippets and notes")
 
 ## Contributing
