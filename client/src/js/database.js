@@ -39,6 +39,22 @@ export const putDb = async (content) => {
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
   // console.error("getDb not implemented");
+  // opens the 'jate' database, creates a transaction on the 'jate' object store in read-only mode, retrieves the object store, and calls getAll() to get all records from the object store.
+  console.log("GET all from the database");
+  const jateDb = await openDB("jate", 1);
+  const tx = jateDb.transaction("jate", "readonly");
+  const store = tx.objectStore("jate");
+  const request = store.getAll();
+  const result = await request;
+  //  processes the result. If there is no data in the object store, it returns null. Otherwise, it concatenates all the entries into a string and returns it.
+  if (result.length === 0) {
+    return null;
+  }
+  let string = "";
+  result.forEach((entry) => {
+    string.concat(entry);
+  });
+  return string;
 };
 
 initdb();
