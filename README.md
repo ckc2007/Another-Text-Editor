@@ -74,21 +74,27 @@ This project is licensed under the MIT license.
 ## Tests
 
 Lighthouse Analysis
+
 ![screenshot](./assets/images/Screen%20Shot%202023-07-17%20at%205.08.32%20PM.png)
 
 Performance
+
 ![screenshot](./assets/images/performance.png)
 
 Acessibility
+
 ![screenshot](./assets/images/accessibility.png)
 
 Best Practices
+
 ![screenshot](./assets/images/best%20practices.png)
 
 SEO
+
 ![screenshot](./assets/images/seo.png)
 
 PWA
+
 ![screenshot](./assets/images/pwa.png)
 
 
